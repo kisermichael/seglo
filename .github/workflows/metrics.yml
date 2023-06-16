@@ -33,7 +33,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
 
           # Options
-          user: seglo
+          user: kisermichael
           template: classic
           base: header
           # config_timezone: ${{ secrets.USER_TIMEZONE }}
