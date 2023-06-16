@@ -15,7 +15,7 @@ jobs:
         with:
           filename: achievements.svg
           token: ${{ secrets.METRICS_SECRET }}
-          user: seglo
+          user: kisermichael
           base: achievements
           plugin_achievements: yes
           plugin_achievements_threshold: B      # Display achievements with rank B or higher
@@ -57,7 +57,7 @@ jobs:
           token: ${{ secrets.METRICS_SECRET }}
 
           # Options
-          user: seglo
+          user: kisermichael
           template: classic
           base: activity, community
   iso_calender:
@@ -120,6 +120,6 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: seglo
+          user: kisermichael
           template: classic
           base: repositories
